@@ -1,0 +1,63 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.appContent {
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  height: 100vh;
+}
+
+
+.readTextApp {
+  margin: 0 auto;
+  text-align: center;
+  background-color: burlywood;
+  width: 50%;
+  height: 450px;
+  border-radius: 20px;
+}
+
+.heading {
+  color: black;
+  font-family: "poppins";
+  font-size: 40px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#text {
+  border-radius: 8px;
+  background-color: wheat;
+  width: 80%;
+  height: 58%;
+  padding: 5px 10px;
+  font-size: 18px;
+ 
+}
+
+select{
+  height: 30px;
+  width: 280px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-top: 5px;
+  padding-left: 5px;
+
+}
+
+button {
+  padding: 5px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+
+}
+
+.myButtons {
+  margin-top: 10px;
+  display: block;
+}
